@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 650px;
+  margin: 40px auto;
+  border: 2px solid black;
+}
+
+.scoreboard {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.scoreboard h1 {
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+
+.scoreboard h2 {
+  margin: 15px 0;
+}
+
+.controls {
+  text-align: center;
+  padding: 30px;
+}
+
+.controls p {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
